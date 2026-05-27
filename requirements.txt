@@ -1,0 +1,33 @@
+# ============================================
+# Face Blur Pipeline — Dependencies
+# ============================================
+# Install: pip install -r requirements.txt
+# For CPU-only: replace onnxruntime-gpu with onnxruntime
+# ============================================
+
+# Core
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Face Detection (Primary — SCRFD via InsightFace)
+insightface>=0.7.3
+onnxruntime>=1.16.0
+
+# Face Detection (Optional — MediaPipe fallback)
+# mediapipe>=0.10.0
+
+# Video Processing
+tqdm>=4.65.0
+
+# Tracking
+filterpy>=1.4.5
+scipy>=1.10.0
+lap>=0.4.0
+
+# Testing
+pytest>=7.4.0
+
+# Web UI
+fastapi>=0.103.0
+uvicorn>=0.23.2
+python-multipart>=0.0.6
