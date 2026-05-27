@@ -69,6 +69,10 @@ Blurify AI can be operated via the modern Web UI (recommended) or the highly con
 
 ### Option A: Modern Web UI (Recommended)
 
+**For Windows Users:**
+The easiest way to start the application is to simply double-click the `run_windows.bat` file located in the project folder. This will automatically set up your environment, start both the API and UI servers, and open your web browser!
+
+**For macOS / Linux (or Manual Start):**
 You need two terminal windows open to run the full stack.
 
 **Terminal 1: Start the AI Backend**
